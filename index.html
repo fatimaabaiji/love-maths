@@ -22,9 +22,24 @@
 
     <!-- Start Game Button -->
     <div class="game-area">
+        <div class="contronls-area">
+            <button class="btn btn--big btn--green"><i class="fas fa-plus"></i></button>
+            <button class="btn btn--big btn--blue"><i class="fas fa-minus"></i></button> 
+            <button class="btn btn--big btn--orange"><i class="fas fa-times"></i></button>
+            <button class="btn btn--big btn--red"><i class="fas fa-divide"></i></button>   
 
+
+        </div>
+        <div class="question-area"></div>
+        <span id="aperand1">0</span>
+        <span id="aperand2">X</span>
+        <span id="aperand1">0</span>
+        <span >=</span>
+        <p class="message">Enter Answer</p>
+        <input type="number" id="answer-box" class="answer">
     </div>
-
+    <button class="btn btn--gray">Submit Answer</button>
+    <!-- Score Area -->
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores"> Incorrect Answers <span id="incorrect">0</span></p>
